@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function footer() {
+export function Footer() {
     return(
         <footer>
             <ul>

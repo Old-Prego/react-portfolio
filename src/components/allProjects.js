@@ -1,4 +1,4 @@
-const allProjects = [
+const AllProjects = [
     {
         title: 'Pet Adoption',
         repoLink: 'https://github.com/Old-Prego/pet-adoption',
@@ -8,4 +8,4 @@ const allProjects = [
     }
 ];
 
-module.exports = allProjects;
+module.exports = AllProjects;

@@ -1,9 +1,9 @@
-import { projects } from './projects';
-import { aboutme } from './aboutme';
-import { resume } from './resume';
-import { contact } from './contact';
+import { Projects } from './projects';
+import { Aboutme } from './aboutme';
+import { Resume } from './resume';
+import { Contact } from './contact';
 
-export function header(props) {
+export function Header(props) {
 
     return(
         <header>

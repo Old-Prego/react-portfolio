@@ -1,17 +1,11 @@
 import React from 'react';
-import allProjects from './allProjects';
+import AllProjects from './allProjects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
 
-const allProjects = [
-    {
-        title: 'Pet Adoption',
-    }
-];
-
-export function projects() 
+export function Projects() 
 {
-    return allProjects.map((project, index) => {
+    return AllProjects.map((project, index) => {
         return(
             <Card style={{ width: '18rem' }} id={index}>
                 <Card.Body>

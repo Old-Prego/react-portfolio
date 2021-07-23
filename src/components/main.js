@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import { header } from './header';
-import { footer } from './footer';
-import { aboutme } from './aboutme';
+import { Header } from './header';
+import { Footer } from './footer';
+import { AboutMe } from './aboutme';
 
-export function portfolio() {
+export function Portfolio() {
 
-    const [page, setPage] = useState(<aboutme />)
+    const [page, setPage] = useState(<AboutMe />)
 
     return (
         <div>
-            <header setPage={setPage}/>
+            <Header setPage={setPage}/>
             {page}
-            <footer />
+            <Footer />
         </div>
     )
 }
