@@ -1,3 +1,11 @@
+:root{
+  --main: #3ddc97;
+  --darktext: #3b7080;
+  --offwhite: #d0bcd5;
+  --offyellow: #fedc97;
+  --dark: #2b2d42;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +34,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--main);
+}
+
+body {
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--main);
 }
 
 @keyframes App-logo-spin {

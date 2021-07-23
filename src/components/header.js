@@ -2,6 +2,7 @@ import { Projects } from './projects';
 import { AboutMe } from './aboutme';
 import { Resume } from './resume';
 import { Contact } from './contact';
+import '../css/header.css';
 
 export function Header(props) {
 

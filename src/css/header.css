@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: var(--offyellow);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0 7% 0 7%;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10% 0 10%;
+    list-style: none;
+}
+
+button {
+    padding: 20%;
+    border:none;
+    background-color: var(--darktext);
+    color: var(--offyellow);
+}
