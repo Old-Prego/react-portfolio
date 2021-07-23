@@ -1,7 +1,7 @@
-import { projects } from '../project/projects';
-import { aboutme } from '../aboutme/aboutme';
-import { resume } from '../resume/resume';
-import { contact } from '../contact/contact';
+import { projects } from './projects';
+import { aboutme } from './aboutme';
+import { resume } from './resume/resume';
+import { contact } from './contact';
 
 export function header(props) {
 

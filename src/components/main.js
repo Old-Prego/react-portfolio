@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { header } from './header/header';
-import { footer } from './footer/footer';
-import { aboutme } from './aboutme/aboutme';
+import { header } from './header';
+import { footer } from './footer';
+import { aboutme } from './aboutme';
 
 export function portfolio() {
 
