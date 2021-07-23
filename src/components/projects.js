@@ -7,7 +7,7 @@ export function Projects()
 {
     return AllProjects.map((project, index) => {
         return(
-            <Card style={{ width: '18rem' }} id={index}>
+            <Card style={{ width: '18rem' }} key={index}>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>
