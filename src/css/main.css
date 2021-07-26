@@ -1,0 +1,11 @@
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main);
+    justify-content: center;
+    margin: 1%;
+}
+
+body {
+    background-color: var(--main);
+}
