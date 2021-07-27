@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Portfolio } from './components/main';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (

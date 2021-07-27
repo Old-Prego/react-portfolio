@@ -54,6 +54,8 @@ header button {
 
 footer li a{
     color: var(--offyellow);
+    background-color: var(--darktext);
+    text-decoration: none;
 }
 
 footer li {
@@ -61,3 +63,4 @@ footer li {
     padding: 1%;
     border-radius: 10px;
 }
+

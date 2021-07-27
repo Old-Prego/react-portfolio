@@ -1,6 +1,6 @@
 import React from 'react';
 import AllProjects from './allProjects';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import { Card } from 'react-bootstrap';
 import '../css/projects.css';
 import pets from '../assets/img/petAdoption.png';
@@ -8,14 +8,14 @@ import quiz from '../assets/img/quiz.png';
 import budget from '../assets/img/budget.png';
 import tank from '../assets/img/tank.png';
 import workout from '../assets/img/workout.png';
-import travel from '../assets/img/portrait.jpg';
+import travel from '../assets/img/travel.png';
 
 export function Projects() 
 {
     var imgArray = [pets, quiz, budget, tank, travel, workout];
     return AllProjects.map((project, index,) => {
         return(
-            <Card style={{ width: '25rem' }} id="cardWrap" key={index}>
+            <Card style={{ width: '30rem' }} id="cardWrap" key={index}>
                 <Card.Title id="cardTitle">{project.title}</Card.Title>
                 <Card.Body id="cardBody">
                     <Card.Text class="cardText">{project.description}</Card.Text>

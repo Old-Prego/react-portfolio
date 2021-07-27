@@ -39,6 +39,10 @@
 
 .cardLink {
     color: var(--offyellow);
+    background-color: var(--darktext);
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 1%;
 }
 
 .cardText {
