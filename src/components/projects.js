@@ -15,7 +15,7 @@ export function Projects()
     var imgArray = [pets, quiz, budget, tank, travel, workout];
     return AllProjects.map((project, index,) => {
         return(
-            <Card style={{ width: '18rem' }} id="cardWrap" key={index} class="col-3">
+            <Card style={{ width: '25rem' }} id="cardWrap" key={index}>
                 <Card.Title id="cardTitle">{project.title}</Card.Title>
                 <Card.Body id="cardBody">
                     <Card.Text class="cardText">{project.description}</Card.Text>
