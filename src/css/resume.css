@@ -1,0 +1,38 @@
+#languages-list{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap:wrap;
+    list-style: none;
+    color: var(--darktext);
+    padding: 2%;
+    height: 30%;
+}
+
+#background-list{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap:wrap;
+    list-style: none;
+    color: var(--darktext);
+    padding: 2%;
+    height: 25%;
+}
+
+#languages-list li, #background-list li{
+    background-color: var(--offyellow);
+    padding: 1%;
+    width: 25%;
+    margin: 1% auto 1% auto;
+    border-radius: 20px;
+}
+
+#languages{
+    padding-top: 2%;
+}
+
+#resumeWrapper{
+    padding: 0;
+    margin: 0;
+}
