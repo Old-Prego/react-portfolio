@@ -9,3 +9,10 @@ div {
 body {
     background-color: var(--main);
 }
+
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}

@@ -9,9 +9,11 @@ export function Portfolio() {
     const [page, setPage] = useState(<AboutMe />)
 
     return (
-        <div>
+        <div id="mainScreen">
             <Header setPage={setPage}/>
-            {page}
+            <div id="mainContainer">
+                {page}
+            </div>
             <Footer />
         </div>
     )
